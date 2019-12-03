@@ -1,70 +1,44 @@
-# Hexo Configuration
-## Docs: http://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+# Header Menu
+menu:
+  Home: /
+  Projects: /projects/
+  Blog: /archives/ # can set archive-dir in root config to custom value
+  Contact: /contact/
+  About: /about/
+   
+rss: /atom.xml
 
-# Site
-title: Corporate Frontend
-subtitle:
-description: Corporate Frontend is a software development company based in Brooklyn, New York.
-author: 
-language:
-timezone:
+# Content
+excerpt_link: Read More
+fancybox: true # whether or not to load the fancybox library
 
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://kigroccn.github.io
-root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+# Integrations
+disqus_shortname: 
+google_analytics:
+swiftype_install_key: 
 
-# Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
+# Social
+social:
+  github: https://github.com/ptsteadman
+  twitter: https://twitter.com/ptsteadman
+  facebook: https://www.facebook.com/ptsteadman
+  rss: atom.xml
+  linkedin: https://linkedin.com/in/ptsteadman
+  stackoverflow: http://stackoverflow.com/users/2480493/patrick-steadman
 
-# Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
-filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
-future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: true
-  tab_replace:
+# Miscellaneous
+color_scheme: red   # options: blue, gray, green, orange, red, turquoise
+favicon: /favicon.ico # path from root of hexo site
+twitter_widget_id: "678830341331820544" # as a string, from https://twitter.com/settings/widgets
+twitter_username: computerlab_ # twitter username without the @
+default_author: Anonymous
 
-marked:
-  breaks: false
-
-# Category & Tag
-default_category: uncategorized
-category_map:
-tag_map:
-
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
-
-# Pagination
-## Set per_page to 0 to disable pagination
-per_page: 3
-pagination_dir: page
-
-# Extensions
-## Plugins: http://hexo.io/plugins/
-## Themes: http://hexo.io/themes/
-theme: corporate
-
+about: Computer Lab is a software development and marketing company based in Brooklyn, New York. <br><br> Computer Lab was founded in 2015, and is focused on so on and so forth.
+phone: 716-472-4484
+email: ptsteadman@gmail.com
+address_1: 140 Metropolitan Avenue
+address_2: 5th Floor
+address_3: Brooklyn, NY 11249
+skype: ptsteadman
+lat: 40.715911 
+long: -73.962147
